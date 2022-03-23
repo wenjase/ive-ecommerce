@@ -9,6 +9,13 @@ function Api(props) {
         const [api, setApi] = useState([])
     }
 
+    useEffect(() => {
+        axios.get(URL)
+        .then((res) => {
+            setApi(res.data)
+        }) 
+    }, [])
+
     return (
         <div>
             
