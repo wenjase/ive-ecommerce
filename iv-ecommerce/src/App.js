@@ -9,9 +9,6 @@ function App() {
     <div className="App">
       <NavBar />
       <Api />
-      <Button variant="contained" color="primary">
-      Hello World
-    </Button>
 
     </div>
   );
